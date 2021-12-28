@@ -34,7 +34,7 @@
                 </entry>
                 <entry>
                     <key>SRV_PARAM_CH_THRESHOLD</key>
-                    <value xsi:type="xs:double" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">80.0</value>
+                    <value xsi:type="xs:double" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">50.0</value>
                 </entry>
                 <entry>
                     <key>SRV_PARAM_CH_SPECTRUM_NBINS</key>
@@ -1204,7 +1204,7 @@
             <entry>
                 <key>SRV_PARAM_WAVEFORMS</key>
                 <value>
-                    <value xsi:type="xs:boolean" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">true</value>
+                    <value xsi:type="xs:boolean" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</value>
                     <descriptor>
                         <id>SRV_PARAM_WAVEFORMS</id>
                         <type>BOOLEAN</type>
@@ -3047,7 +3047,7 @@
         <flags>DAE=</flags>
     </parameterDescriptor>
     <acquisitionMemento>
-        <acquisitionMode>WAVES</acquisitionMode>
+        <acquisitionMode>LIST</acquisitionMode>
         <inputFileLoopEnabled>false</inputFileLoopEnabled>
         <saveOffline>true</saveOffline>
         <saveRaw>false</saveRaw>
@@ -3056,8 +3056,8 @@
         <dataSocket>false</dataSocket>
         <autoTriggerEnabled>false</autoTriggerEnabled>
         <timedRunEnabled>true</timedRunEnabled>
-        <timedRunDuration>86400000</timedRunDuration>
-        <runId>20211221AmBe_TH_80_HV1550_D150_400ns_2</runId>
+        <timedRunDuration>43200000</timedRunDuration>
+        <runId>20211227AmBe_TH80_HV1550_D150cmd5cm_400ns_12hrs</runId>
         <autoIncrementRunId>false</autoIncrementRunId>
         <fileFormatList>BIN</fileFormatList>
         <fileFormatSpectrum>TXT</fileFormatSpectrum>
