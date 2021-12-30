@@ -3047,7 +3047,7 @@
         <flags>DAE=</flags>
     </parameterDescriptor>
     <acquisitionMemento>
-        <acquisitionMode>LIST</acquisitionMode>
+        <acquisitionMode>WAVES</acquisitionMode>
         <inputFileLoopEnabled>false</inputFileLoopEnabled>
         <saveOffline>true</saveOffline>
         <saveRaw>false</saveRaw>
@@ -3057,7 +3057,7 @@
         <autoTriggerEnabled>false</autoTriggerEnabled>
         <timedRunEnabled>true</timedRunEnabled>
         <timedRunDuration>14400000</timedRunDuration>
-        <runId>20211230AmBe_TH80_HV1550_D150cmd5cm_400ns_4hrs_nowave</runId>
+        <runId>20211230AmBe_TH80_HV1550_D150cmd5cm_400ns_4hrs_wave</runId>
         <autoIncrementRunId>false</autoIncrementRunId>
         <fileFormatList>BIN</fileFormatList>
         <fileFormatSpectrum>TXT</fileFormatSpectrum>
